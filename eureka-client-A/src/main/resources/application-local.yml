@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:31761/eureka
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 9001
+
+
+debug: true
